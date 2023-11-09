@@ -1,14 +1,13 @@
-# PodstawyProgamowania1
+## PodstawyProgamowania1
 
 <img src="./img/agh.png" width="100px" align="left"></img>
 
 <div>
   <br/>
   Repository for the subject "Podstawy Programowania 1" <br/>
-  Lecturer: Janusz Miller
+  Lecturer: <b>Janusz Miller</b>
 </div>
 
-<br/>
 <br/>
 
 #### List of tasks:
