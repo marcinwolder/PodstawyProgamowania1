@@ -27,3 +27,10 @@ Repository for the subject "Podstawy Programowania 1"
 |    Z.5.1     |       Rekurencyjne obliczanie całki oznaczonej |     ✅      |          ❌          |
 |    Z.5.2     | Zapis łańcuchów w oddzielnych obszarach sterty |     ✅      |          ❌          |
 |    Z.5.3     |                   Zapis łańcuchów w tablicy 2D |     ✅      |          ❌          |
+| **_Part 6_** |                                           <hr> |    <hr>     |         <hr>         |
+| **_Part 7_** |                                           <hr> |    <hr>     |         <hr>         |
+| **_Part 8_** |                                           <hr> |    <hr>     |         <hr>         |
+| **_Part 9_** |                                           <hr> |    <hr>     |         <hr>         |
+| **_Part 10_** |                                           <hr> |    <hr>     |         <hr>         |
+| **_Part 11_** |                                           <hr> |    <hr>     |         <hr>         |
+| **_Part 12_** |                                           <hr> |    <hr>     |         <hr>         |
