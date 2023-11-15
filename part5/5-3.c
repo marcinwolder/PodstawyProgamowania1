@@ -4,7 +4,7 @@
 #define N 4             // liczba lancuchow
 #define STR_LEN_MAX 100 // maksymalna dlugosc lancucha (liczona z '\0')
 
-char* read_string_2D(char strings[N][STR_LEN_MAX]);
+void read_string_2D(char strings[N][STR_LEN_MAX]);
 void print_string(char strings[N][STR_LEN_MAX]);
 void bubbleSort(char strings[N][STR_LEN_MAX]);
 
@@ -20,7 +20,7 @@ int main(void){
     return  0;
 }
 
-char* read_string_2D(char strings[N][STR_LEN_MAX]){
+void read_string_2D(char strings[N][STR_LEN_MAX]){
     int index = 0;
     for (int i = 0; i < N; ++i) {
         if(!strlen(strings[i])){
