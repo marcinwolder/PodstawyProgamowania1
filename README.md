@@ -5,10 +5,9 @@
 <div>
   <br/>
   Repository for the subject "Podstawy Programowania 1" <br/>
-  Lecturer: Janusz Miller
+  Lecturer: <b>Janusz Miller</b>
 </div>
 
-<br/>
 <br/>
 
 #### List of tasks:
