@@ -30,7 +30,7 @@
 |  Z.4.4   |                                     Tablica 2D |                  ❌                   |
 | **_5_**  |                                           <hr> |                 <hr>                  |
 |  Z.5.1   |       Rekurencyjne obliczanie całki oznaczonej | ✅ <sub>([GITHUB](part5/5-1.c))</sub> |
-|  Z.5.2   | Zapis łańcuchów w oddzielnych obszarach sterty |                  ❌                   |
+|  Z.5.2   | Zapis łańcuchów w oddzielnych obszarach sterty | ✅ <sub>([GITHUB](part5/5-2.c))</sub> |
 |  Z.5.3   |                   Zapis łańcuchów w tablicy 2D |                  ❌                   |
 | **_6_**  |                                           <hr> |                 <hr>                  |
 | **_7_**  |                                           <hr> |                 <hr>                  |
