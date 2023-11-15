@@ -31,7 +31,10 @@ double simpson(double min, double max, double delta, double S, int lvl){
     double S1 = (max - mid) * (f(mid) + 4 * f((mid+max)/2) + f(max)) / 6;
     double S2 = (mid - min) * (f(min) + 4 * f((mid+min)/2) + f(mid)) / 6;
 
-    if((S1+S2) - S <= delta) return S1+S2;
+    if((S1+S2) - S <= delta) {
+        printf("Poziom rekurencji: %d, dlugosc podprzedzialu: %f\n", lvl, max-min);
+        return S1 + S2;
+    }
 
     double simson1 = simpson(mid, max, delta/2, S1, lvl+1);
     double simson2 = simpson(min, mid, delta/2, S2, lvl+1);
