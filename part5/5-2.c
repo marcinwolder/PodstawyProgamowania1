@@ -21,16 +21,16 @@ int main(void){
     for (int i = 0; i < n; ++i) {
         char *buf = read_string();
         int index = 0;
-        for (int j = 0; j < i-1; ++j) {
-            if(strcmp(strings[j+1], buf)>0){
+        for (int j = 0; j < i; ++j) {
+            if(strcmp(buf, strings[j])<0){
                 index = j;
                 break;
             }
         }
-        for (int j = i; j > index; --j) {
-            strings[j]= strings[j-1];
+        for (int j = i-1; j >= index; --j) {
+            strings[j+1] = strings[j];
         }
-        strings[index]=buf;
+        strings[index] = buf;
     }
 
 //    DLA WERSJI ROZSZERZONEJ A
@@ -53,7 +53,7 @@ char* read_string(){
 
 void print_string(char *strings[], int stringsCount){
     for (int i = 0; i < stringsCount; ++i) {
-        printf("%s\n", strings[i]);
+        printf("%s ", strings[i]);
     }
 }
 
