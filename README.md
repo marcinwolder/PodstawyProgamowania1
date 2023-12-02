@@ -39,6 +39,8 @@
 |  Z 7.1   |                         Operacje na macierzach | ✅ <sub>([GITHUB](part7/7-1.c))</sub> |
 |  Z 7.2   |                                          qsort | ✅ <sub>([GITHUB](part7/7-2.c))</sub> |
 | **_8_**  |                                           <hr> |                 <hr>                  |
+|  Z 8.1   |                     Tablica wskaźników i qsort | ✅ <sub>([GITHUB](part8/8-1.c))</sub> |
+|  Z 8.2   |           Tablica wskaźników i qsort + bsearch | ✅ <sub>([GITHUB](part8/8-2.c))</sub> |
 | **_9_**  |                                           <hr> |                 <hr>                  |
 | **_10_** |                                           <hr> |                 <hr>                  |
 | **_11_** |                                           <hr> |                 <hr>                  |
