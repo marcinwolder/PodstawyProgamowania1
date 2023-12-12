@@ -105,3 +105,56 @@ void * memcpy( void * destination, const void * source, size_t num );
 void * memmmove( void * destination, const void * source, size_t num );
 //bloki pamięci mogą na siebie nachodzić
 ```
+
+### PP 1 - 30.11.2023
+
+#### qsort
+
+```c
+void qsort(
+void * base,
+size_t num,
+size_t width,
+int( * compare )( const void *, const void * )
+);
+```
+
+#### bsearch
+
+```c
+void * bsearch(
+const void * key,
+const void * base,
+size_t num,
+size_t width,
+int( * compare )( const void *, const void * )
+);
+```
+
+### PP 1 - 23.11.2023
+
+#### Tablice wielowymiarowe
+
+*jeden może zostać pusty*
+
+```c
+void f(int t2[][3], int wiersze){};
+
+f(t2D, 5);
+```
+
+```c
+void f(int (*t2)[3], int wiersze){};
+
+f(t2D, 5);
+```
+
+*podanie adresu pierwszego elementu pozwala pomoniąć rozmiar tablicy / trzeba manualnie adresować elementy*
+
+```c
+void f(int *t2, int rows, int cols){
+    // t2D[i][j]
+    *(t2D+i*cols+j);
+}
+f(t2D[0], 5, 3);
+```
