@@ -42,6 +42,9 @@
 |  Z 8.1   |                     Tablica wskaźników i qsort | ✅ <sub>([GITHUB](part8/8-1.c))</sub> |
 |  Z 8.2   |           Tablica wskaźników i qsort + bsearch | ✅ <sub>([GITHUB](part8/8-2.c))</sub> |
 | **_9_**  |                                           <hr> |                 <hr>                  |
+| Z.9.1 | Wektor - podstawy 1 | ❌ |
+| Z.9.2 | Wektor int - zadanie | ❌ |
+| Z 9.3 | Macierz rzadka | ❌ |
 | **_10_** |                                           <hr> |                 <hr>                  |
 | **_11_** |                                           <hr> |                 <hr>                  |
 | **_12_** |                                           <hr> |                 <hr>                  |
