@@ -78,7 +78,7 @@ realloc(p, n);
 1. Definicja typu
 
 ```c
-typedef struct tagVector {...} Vector;
+typedef struct {...} Vector;
 
 Vector V1;
 ```
@@ -86,9 +86,9 @@ Vector V1;
 2. Definicja struktury
 
 ```c
-struct tagVector {...};
+struct Vector {...};
 
-struct tagVector V2;
+struct Vector V2;
 ```
 
 #### typ bajtowy
