@@ -15,7 +15,7 @@
 - Lecture notes
 - Instructions for tasks
 
-#### List of tasks:
+## List of tasks:
 
 |   Num    |                                           Name |                Solved?                |
 | :------: | ---------------------------------------------: | :-----------------------------------: |
@@ -53,3 +53,50 @@
 | **_10_** |                                           <hr> |                 <hr>                  |
 | **_11_** |                                           <hr> |                 <hr>                  |
 | **_12_** |                                           <hr> |                 <hr>                  |
+
+## Lecture notes:
+
+### PP 1 - 07.12.2023
+#### odniesienie do wartości structa
+
+- dla pointera `x -> data`
+- dla referencji `x.data`
+
+#### realloc
+
+```c
+realloc(p, n);
+//p - ptr do pamięci, n - nowy rozmiar
+```
+
+#### typedef
+
+1. Definicja typu
+
+```c
+typedef struct tagVector {...} Vector;
+
+Vector V1;
+```
+
+2. Definicja struktury
+
+```c
+struct tagVector {...};
+
+struct tagVector V2;
+```
+
+#### typ bajtowy
+```c
+void* data = malloc(SIZE);
+
+data + n; // przesunięcie pointera data o n * sizeof(void) !błąd
+(char*)data + n; // przesunięcie pointera data o n * sizeof(char) - 1 Bajt - uniwersalne przesuwanie poinera
+```
+
+#### zarządzanie bajtami pamięci
+```c
+void * memcpy( void * destination, const void * source, size_t num ); //bloki pamięci **NIE** mogą na siebie nachodzić
+void * memmmove( void * destination, const void * source, size_t num ); //bloki pamięci mogą na siebie nachodzić
+```
