@@ -11,6 +11,7 @@
 <br/>
 
 ## Content List:
+
 - [Task list](https://github.com/marcinwolder/PodstawyProgamowania1?tab=readme-ov-file#list-of-tasks)
 - [Lecture notes](https://github.com/marcinwolder/PodstawyProgamowania1?tab=readme-ov-file#lecture-notes)
 - Instructions for tasks
@@ -47,9 +48,9 @@
 |  Z 8.1   |                     Tablica wskaźników i qsort | ✅ <sub>([GITHUB](part8/8-1.c))</sub> |
 |  Z 8.2   |           Tablica wskaźników i qsort + bsearch | ✅ <sub>([GITHUB](part8/8-2.c))</sub> |
 | **_9_**  |                                           <hr> |                 <hr>                  |
-| Z.9.1 | Wektor - podstawy 1 | ❌ |
-| Z.9.2 | Wektor int - zadanie | ❌ |
-| Z 9.3 | Macierz rzadka | ❌ |
+|  Z.9.1   |                            Wektor - podstawy 1 |                  ❌                   |
+|  Z.9.2   |                           Wektor int - zadanie | ✅ <sub>([GITHUB](part9/9-2.c))</sub> |
+|  Z 9.3   |                                 Macierz rzadka |                  ❌                   |
 | **_10_** |                                           <hr> |                 <hr>                  |
 | **_11_** |                                           <hr> |                 <hr>                  |
 | **_12_** |                                           <hr> |                 <hr>                  |
@@ -57,6 +58,7 @@
 ## Lecture notes:
 
 ### PP 1 - 07.12.2023
+
 #### odniesienie do wartości structa
 
 - dla pointera `x -> data`
@@ -88,6 +90,7 @@ struct tagVector V2;
 ```
 
 #### typ bajtowy
+
 ```c
 void* data = malloc(SIZE);
 
@@ -99,6 +102,7 @@ data + n;
 ```
 
 #### zarządzanie bajtami pamięci
+
 ```c
 void * memcpy( void * destination, const void * source, size_t num );
 //bloki pamięci **NIE** mogą na siebie nachodzić
@@ -135,7 +139,7 @@ int( * compare )( const void *, const void * )
 
 #### Tablice wielowymiarowe
 
-*jeden może zostać pusty*
+_jeden może zostać pusty_
 
 ```c
 void f(int t2[][3], int wiersze){};
@@ -149,7 +153,7 @@ void f(int (*t2)[3], int wiersze){};
 f(t2D, 5);
 ```
 
-*podanie adresu pierwszego elementu pozwala pomoniąć rozmiar tablicy / trzeba manualnie adresować elementy*
+_podanie adresu pierwszego elementu pozwala pomoniąć rozmiar tablicy / trzeba manualnie adresować elementy_
 
 ```c
 void f(int *t2, int rows, int cols){
