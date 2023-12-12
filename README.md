@@ -13,8 +13,8 @@
 ## Content List:
 
 - [Task list](https://github.com/marcinwolder/PodstawyProgamowania1?tab=readme-ov-file#list-of-tasks)
+- [Instructions for tasks](https://github.com/marcinwolder/PodstawyProgamowania1?tab=readme-ov-file#instructions-for-tasks)
 - [Lecture notes](https://github.com/marcinwolder/PodstawyProgamowania1?tab=readme-ov-file#lecture-notes)
-- Instructions for tasks
 
 ## List of tasks:
 
@@ -54,6 +54,8 @@
 | **_10_** |                                           <hr> |                 <hr>                  |
 | **_11_** |                                           <hr> |                 <hr>                  |
 | **_12_** |                                           <hr> |                 <hr>                  |
+
+## Instructions for tasks:
 
 ## Lecture notes:
 
