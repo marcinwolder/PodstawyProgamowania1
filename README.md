@@ -91,12 +91,17 @@ struct tagVector V2;
 ```c
 void* data = malloc(SIZE);
 
-data + n; // przesunięcie pointera data o n * sizeof(void) !błąd
-(char*)data + n; // przesunięcie pointera data o n * sizeof(char) - 1 Bajt - uniwersalne przesuwanie poinera
+data + n;
+// przesunięcie pointera data o n * sizeof(void) !błąd
+(char*)data + n;
+// przesunięcie pointera data o n * sizeof(char)
+// 1 Bajt - uniwersalne przesuwanie poinera
 ```
 
 #### zarządzanie bajtami pamięci
 ```c
-void * memcpy( void * destination, const void * source, size_t num ); //bloki pamięci **NIE** mogą na siebie nachodzić
-void * memmmove( void * destination, const void * source, size_t num ); //bloki pamięci mogą na siebie nachodzić
+void * memcpy( void * destination, const void * source, size_t num );
+//bloki pamięci **NIE** mogą na siebie nachodzić
+void * memmmove( void * destination, const void * source, size_t num );
+//bloki pamięci mogą na siebie nachodzić
 ```
