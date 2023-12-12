@@ -10,6 +10,11 @@
 
 <br/>
 
+## Content List:
+- [Task list](https://github.com/marcinwolder/PodstawyProgamowania1/edit/main/README.md#list-of-tasks)
+- Lecture notes
+- Instructions for tasks
+
 #### List of tasks:
 
 |   Num    |                                           Name |                Solved?                |
