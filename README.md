@@ -11,7 +11,7 @@
 <br/>
 
 ## Content List:
-- [Task list](https://github.com/marcinwolder/PodstawyProgamowania1/tree/main?tab=readme-ov-file#list-of-tasks)
+- [Task list](https://github.com/marcinwolder/PodstawyProgamowania1?tab=readme-ov-file#list-of-tasks)
 - Lecture notes
 - Instructions for tasks
 
