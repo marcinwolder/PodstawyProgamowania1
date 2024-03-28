@@ -1,4 +1,4 @@
-# PodstawyProgramowania1
+# PodstawyProgramowania1 (C)
 
 <img src="./img/agh.png" width="100px" align="left"></img>
 
